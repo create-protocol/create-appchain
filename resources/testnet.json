@@ -3,10 +3,10 @@
   "id": "tchain_dev",
   "chainType": "Live",
   "bootNodes": [
-    "/dns/node-0.tchain.testnet.octopus.network/tcp/30333/p2p/12D3KooWLD1NLuM9f9Ernwp8QjmHgLwAqdDTAp1JyLtNQmCwvMLk",
-    "/dns/node-1.tchain.testnet.octopus.network/tcp/30333/p2p/12D3KooWMYCtRwgiZhPHNFwAuFcedrD17iAZNtbvP2m9AiN1sWir",
-    "/dns/node-2.tchain.testnet.octopus.network/tcp/30333/p2p/12D3KooWQVHtxbbSsc3NtmLYQTW3Rc4nwEnoHD5SiP62sgjMcenb",
-    "/dns/node-3.tchain.testnet.octopus.network/tcp/30333/p2p/12D3KooWLXxNFF9qAzDYysvkmiozLL4ACJw2Fs3PusUcGTNsRfmV"
+    "/dns/bootnode-0.tchain.testnet.octopus.network/tcp/30333/ws/p2p/12D3KooWLD1NLuM9f9Ernwp8QjmHgLwAqdDTAp1JyLtNQmCwvMLk",
+    "/dns/bootnode-1.tchain.testnet.octopus.network/tcp/30333/ws/p2p/12D3KooWMYCtRwgiZhPHNFwAuFcedrD17iAZNtbvP2m9AiN1sWir",
+    "/dns/bootnode-2.tchain.testnet.octopus.network/tcp/30333/ws/p2p/12D3KooWQVHtxbbSsc3NtmLYQTW3Rc4nwEnoHD5SiP62sgjMcenb",
+    "/dns/bootnode-3.tchain.testnet.octopus.network/tcp/30333/ws/p2p/12D3KooWLXxNFF9qAzDYysvkmiozLL4ACJw2Fs3PusUcGTNsRfmV"
   ],
   "telemetryEndpoints": null,
   "protocolId": "tchain-dev",
