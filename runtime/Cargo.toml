@@ -1,5 +1,5 @@
 [package]
-name = "appchain-barnacle-runtime"
+name = "appchain-create-runtime"
 version = "0.9.18"
 description = "A fresh FRAME-based appchain runtime, ready for hacking."
 authors = ["Octopus Network <hi@oct.network>"]
@@ -7,7 +7,7 @@ homepage = "https://oct.network/"
 edition = "2021"
 license = "Apache-2.0"
 publish = false
-repository = "https://github.com/octopus-network/barnacle/"
+repository = "https://github.com/create-protocol/create-appchain/"
 
 [package.metadata.docs.rs]
 targets = ["x86_64-unknown-linux-gnu"]

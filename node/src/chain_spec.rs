@@ -1,4 +1,4 @@
-use appchain_barnacle_runtime::{
+use appchain_create_runtime::{
 	opaque::Block, opaque::SessionKeys, AccountId, BabeConfig, Balance, BalancesConfig,
 	GenesisConfig, GrandpaConfig, ImOnlineConfig, OctopusAppchainConfig, OctopusLposConfig,
 	SessionConfig, Signature, SudoConfig, SystemConfig, DOLLARS, WASM_BINARY,
@@ -14,7 +14,7 @@ use sp_core::{sr25519, Pair, Public};
 use sp_finality_grandpa::AuthorityId as GrandpaId;
 use sp_runtime::traits::{IdentifyAccount, Verify};
 
-use appchain_barnacle_runtime::{EVMConfig, EthereumConfig};
+use appchain_create_runtime::{EVMConfig, EthereumConfig};
 use sp_core::{H160, U256};
 use std::{collections::BTreeMap, str::FromStr};
 
@@ -227,7 +227,7 @@ fn testnet_genesis(
 		sudo: SudoConfig { key: Some(root_key) },
 		babe: BabeConfig {
 			authorities: vec![],
-			epoch_config: Some(appchain_barnacle_runtime::BABE_GENESIS_EPOCH_CONFIG),
+			epoch_config: Some(appchain_create_runtime::BABE_GENESIS_EPOCH_CONFIG),
 		},
 		im_online: ImOnlineConfig { keys: vec![] },
 		grandpa: GrandpaConfig { authorities: vec![] },

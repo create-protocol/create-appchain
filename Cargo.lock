@@ -98,10 +98,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4361135be9122e0870de935d7c439aef945b9f9ddd4199a553b5270b49c82a27"
 
 [[package]]
-name = "appchain-barnacle"
+name = "appchain-create"
 version = "0.9.18"
 dependencies = [
- "appchain-barnacle-runtime",
+ "appchain-create-runtime",
  "beefy-gadget",
  "beefy-gadget-rpc",
  "beefy-primitives",
@@ -166,7 +166,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "appchain-barnacle-runtime"
+name = "appchain-create-runtime"
 version = "0.9.18"
 dependencies = [
  "beefy-primitives",
